@@ -1,0 +1,107 @@
+body {
+    height: 1000px;
+    font-family: sans-serif;
+}
+
+.main-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+}
+.my-profil {
+    top: -10px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+}
+
+.header-item {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 0; 
+    color: white;
+    text-decoration: none;
+}
+
+.main-items {
+    margin-top: 0;
+    text-align: center;
+}
+
+.header-item:hover {
+    color: rgb(175, 95, 95);
+}
+
+.profil-cartasi_image {
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    background-color: #1e293b;
+}
+
+.profil-cartasi {
+    text-align: center;
+    height: 600px;
+    width: 600px;
+    margin-top: 20px;
+    box-shadow: 0 8px 24px rgb(0,0,0,0.3);
+    margin: 20px auto;
+}
+
+.button {
+    background-color: rgb(61, 61, 241);
+    height: 40px;
+}
+
+.matn-block_matni {
+    position: relative;
+    height: 200px;
+    width: 45%;
+    background-color: rgb(139, 133, 133);
+    padding: 10px 30px;
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 0 8px 24px rgb(0,0,0,0.3);
+    
+}
+
+.rasm-block_rasmi {
+     text-align: left;
+    height: 200px;
+    width: 45%;
+    background-color: rgb(139, 133, 133);
+    padding: 10px 30px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 5%;
+    box-shadow: 0 8px 24px rgb(0,0,0,0.3);
+   
+    
+}
+.clear {
+    clear: both;
+}
+
+.footer-section {
+    height: 40px;
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    padding: 2px;
+}
+
+.footer-section p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
+
